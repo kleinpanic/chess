@@ -152,7 +152,7 @@ def main(stdscr):
     move_history = []
     undo_stack = []
     redo_stack = []
-    cell_width = 5  # Adjusted size for larger icons
+    cell_width = 10  # Adjusted size for larger icons
     cell_height = 3
     selected_square = None
     piece_selected = False
